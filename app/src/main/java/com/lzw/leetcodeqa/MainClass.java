@@ -8,8 +8,8 @@ package com.lzw.leetcodeqa;
 
 public class MainClass {
     public static void main(String args[]) {
-        QAClass_1 qaClass_1 = new QAClass_1();
-        String s = qaClass_1.longestPalindrome("adcda");
+        QAClass_2 qaClass_2 = new QAClass_2();
+        int s = qaClass_2.myAtoi("+");
         System.out.print(s);
     }
 }
